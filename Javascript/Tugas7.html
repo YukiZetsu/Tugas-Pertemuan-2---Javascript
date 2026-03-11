@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menghitung Luas</title>
+</head>
+<body>
+    <script>
+        // Deklarasi & inisialisasi variabel
+        let panjang = 10;
+        let lebar = 5;
+        //Hitung luas persegi panjang
+        let luasPP = panjang * lebar; // Rumus P * L
+        
+
+        //Cetak data
+        document.write(
+        "<b>1. Persegi Panjang</b>" +
+        "<br>Panjang: " + panjang + " cm" +
+        "<br>Lebar: " + lebar + " cm" +
+        "<br>Luas Persegi Panjang: " + luasPP + " cm²" +
+        "<br><br>");
+
+        // Deklarasi & inisialisasi variabel
+        let sisi = 8;
+    
+        // Hitung luas bujur sangkar
+        let luasBS = sisi * sisi; // Rumus: s * s
+
+        // Cetak data ke layar
+        document.write(
+        "<b>2. Bujur Sangkar</b>" +
+        "<br>Sisi: " + sisi + " cm" +
+        "<br>Luas Bujur Sangkar: " + luasBS + " cm²" +
+        "<br><br>"
+        );
+
+        // Deklarasi & inisialisasi variabel konstanta untuk pengali
+        const SETENGAH = 0.5;
+        let alas = 12;
+        let tinggi = 7;
+    
+        // Hitung luas segitiga
+        let luasSegitiga = SETENGAH * alas * tinggi; // Rumus: 1/2 * a * t
+
+        // Cetak data ke layar
+        document.write(
+        "<b>3. Segitiga</b>" +
+        "<br>Alas: " + alas + " cm" +
+        "<br>Tinggi: " + tinggi + " cm" +
+        "<br>Luas Segitiga: " + luasSegitiga + " cm²"
+        );
+    </script>
+</body>
+</html>
